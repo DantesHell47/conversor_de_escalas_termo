@@ -1,11 +1,31 @@
-import argparse
+argparse import
 
 # Funções para conversão de escalas
-def celsius_to_fahrenheit(c):
+
+# celcius para fahrenheit
+def celsius_to_fahrenheit(tc):
     return c * 9/5 + 32
 
-def celsius_to_kelvin(c):
+# celcius para kelvin
+def celsius_to_kelvin(tc):
     return c + 273.15
+
+# fahrenheit para kelvin
+def fahrenheit_to_kelvin(tf):
+    return (5/9)*(tf-32) + 273.15
+
+# fahrenheit para kelvin
+def fahreingeit_to_celcius(tf):
+    return (5/9) * (tf-32)
+    
+# kelvin para fahrenheit 
+def kelvin_to_fahreinheit(tk):
+    return 9/5 * (tk-273) + 32
+    
+# kelvin para fahrenheit
+def kelvin_to_celcius(tk):
+    return tk - 273.15
+    
 
 
 # Cria um parser de argumentos
