@@ -1,3 +1,3 @@
-# conversor_de_escalas_termo
+# Conversor de escalas termometricas
 
-* 
+* Criando uma aplicação de terminal (CLI)
